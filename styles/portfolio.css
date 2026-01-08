@@ -79,12 +79,16 @@ nav {
     color: #474747;
 }
 
+
 #banner {
-    margin: 46px 38px 0px 230px;
-    display: flex; 
-    justify-content: space-around;
+    margin: 46px 38px 0 230px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    max-width: 1332px;
+}
+
+#banner .banner-content {
+    max-width: 585px;
 }
 
 #banner .banner-content h2 {
@@ -104,11 +108,11 @@ nav {
     color: #757575;
     line-height: 30px;
     margin-bottom: 30px;
-    max-width: 585px;
 }
 
 #banner .banner-image img {
     vertical-align: middle;
+    max-width: 584px;
 }
 
 #about .section-container {
